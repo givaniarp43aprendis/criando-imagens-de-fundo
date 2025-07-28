@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem fundo</title>
+    <style>
+body {
+    background-image: url('pattern002.png');
+}
+div.quadro1 {
+ border: 3px solid black;
+  border-radius: 10px;
+  display: inline- block;  
+  background-color: brown;  
+  width: 300px;
+  height: 300px;
+}
+
+div.quadro2 {
+  background-color: aqua;
+  border: 3px solid black;
+  display: inline-block;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+ 
+}
+div.quadro3 {
+   background-image: linear-gradient(to right, yellow,red);
+    border: 3px solid black;
+    border-radius: 10px;
+   width: 300px;
+   height: 300px;
+  
+    display: inline-block;
+    
+}
+div#q1:hover {
+    background-color: blue;
+}
+
+
+div#q1 {
+    background-color: brown;
+}
+div#q2:hover {
+    background-color: deeppink;
+}
+
+    </style>
+</head>
+<body>
+  
+    <div class="quadro1" id="q1"></div>
+  
+    <div class="quadro2" id="q2"></div>
+
+    <div class="quadro3">
+
+    </div>
+</body>
+</html>
